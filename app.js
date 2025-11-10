@@ -24,11 +24,11 @@ const upload = multer({ storage: storage });
 const fs = require('fs');
 
 const connection = mysql.createConnection({
-  host: 'c237web.mysql.database.azure.com',
-  user: 'c237student', 
-  password: 'c237student!',
-  database: 'C237team39_identitydo.fragrances',
-  port: 3306,
+  host: '5fp4wj.h.filess.io',
+  user: 'perfume_website_pagedetail', 
+  password: '601f1d93ebab260e41c3f973e8031d50fd65b6d9',
+  database: 'perfume_website_pagedetail',
+  port: 3307,
 ssl: {
   ca: fs.readFileSync(
     path.join(__dirname, 'public', 'BaltimoreCyberTrustRoot.crt.pem')
